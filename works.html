@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>施工事例 | 伊都クリーン株式会社</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 40px;
+      color: #2d3d56;
+    }
+    .work-section {
+      margin-bottom: 60px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    .work-section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #FF6347;
+      font-weight: bold;
+    }
+    .work-section h3 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #555;
+    }
+    .work-section p {
+      font-size: 1.4em;
+      line-height: 1.6;
+      color: #333;
+    }
+    .work-images {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .work-image-container {
+      position: relative;
+      width: 48%;
+    }
+    .work-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .image-caption {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 1.4em;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 1.1em;
+      color: #FFF;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .work-section video {
+      width: 80%;
+      margin-bottom: 30px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* 施工中の動画3をさらに小さくする */
+    .work-section video.small-video {
+      width: 40%;
+    }
+
+    /* レスポンシブデザイン */
+    @media (max-width: 1200px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      .work-section h2 {
+        font-size: 2.2em;
+      }
+      .work-section h3 {
+        font-size: 1.8em;
+      }
+      .work-section p {
+        font-size: 1.3em;
+      }
+      .work-images {
+        flex-direction: row;
+      }
+      .work-image-container {
+        width: 48%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      .work-section h2 {
+        font-size: 1.8em;
+      }
+      .work-section h3 {
+        font-size: 1.6em;
+      }
+      .work-section p {
+        font-size: 1.2em;
+      }
+      .work-images {
+        flex-direction: column;
+        align-items: center;
+      }
+      .work-image-container {
+        width: 100%;
+      }
+      footer {
+        font-size: 1em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      .work-section h2 {
+        font-size: 1.5em;
+      }
+      .work-section h3 {
+        font-size: 1.4em;
+      }
+      .work-section p {
+        font-size: 1em;
+      }
+      .work-images {
+        flex-direction: column;
+        align-items: center;
+      }
+      .work-image-container {
+        width: 100%;
+      }
+      footer {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>施工事例</h1>
+  
+  <!-- 配管洗浄の施工前と施工後 -->
+  <div class="work-section">
+    <h2>配管洗浄</h2>
+    <div class="work-images">
+      <div class="work-image-container">
+        <img src="IMG_3790.JPG" alt="施工前" class="work-image">
+        <div class="image-caption">施工前</div>
+      </div>
+      <div class="work-image-container">
+        <img src="IMG_3829.JPG" alt="施工後" class="work-image">
+        <div class="image-caption">施工後</div>
+      </div>
+    </div>
+    <p>高圧洗浄機を使って配管内部の汚れを除去し、効率的な運転をサポートしました。</p>
+  </div>
+
+  <!-- 配管洗浄 -->
+  <div class="work-section">
+    <h2>配管洗浄</h2>
+    <div class="work-images">
+      <div class="work-image-container">
+        <img src="IMG_3759.JPG" alt="施工前" class="work-image">
+        <div class="image-caption">施工前</div>
+      </div>
+      <div class="work-image-container">
+        <img src="IMG_3771.JPG" alt="施工後" class="work-image">
+        <div class="image-caption">施工後</div>
+      </div>
+    </div>
+    <p>フランジ部分がない配管でも対応可能、ノズルの種類を変えて曲がりのある配管も洗浄しました。</p>
+  </div>
+
+  <!-- コンベア洗浄 -->
+  <div class="work-section">
+    <h2>コンベア洗浄</h2>
+    <div class="work-images">
+      <div class="work-image-container">
+        <img src="IMG_3789.JPG" alt="施工前" class="work-image">
+        <div class="image-caption">施工前</div>
+      </div>
+      <div class="work-image-container">
+        <img src="IMG_3795.JPG" alt="施工後" class="work-image">
+        <div class="image-caption">施工後</div>
+      </div>
+    </div>
+    <p>モルタルの付着を除去し、足場がない場所でも効率的に施工を行いました。</p>
+  </div>
+
+  <!-- 施工中の動画セクション -->
+  <div class="work-section">
+    <h2>施工中の動画</h2>
+    <!-- 施工中の動画1 -->
+    <video controls>
+      <source src="ガン打ち.mp4" type="video/mp4">
+      こちらのブラウザでは動画は再生できません。
+    </video>
+    <br><br>
+    <!-- 施工中の動画2 -->
+    <video controls>
+      <source src="モンロー２.mp4" type="video/mp4">
+      こちらのブラウザでは動画は再生できません。
+    </video>
+    <br><br>
+    <!-- 施工中の動画3 -->
+    <video class="small-video" controls>
+      <source src="熱交洗浄.mp4" type="video/mp4">
+      こちらのブラウザでは動画は再生できません。
+    </video>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html">ホームに戻る</a>
+  <p>&copy; 2025 伊都クリーン株式会社. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
